@@ -76,7 +76,7 @@
         const getMoodPromise = MoodContract.getMood()
         const Mood = await getMoodPromise
         document.getElementById('moodText').textContent =
-          'Ertonik is:' + ' ' + Mood
+          'Current Mood is:' + ' ' + Mood
       }
 
       async function setMood() {
