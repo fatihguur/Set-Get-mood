@@ -4,6 +4,7 @@ body {
   color:white;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
+  padding-top: 200px;
 }
 
 div {
@@ -95,4 +96,16 @@ button {
   to {
     background-position: 200% center;
   }
+}
+
+#moodText {
+  padding-top: 50px;
+  font-size:x-large;
+  
+}
+
+#warningText {
+  padding-top: 225px;
+  font-weight: bold;
+
 }
